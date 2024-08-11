@@ -15,7 +15,6 @@ echo.
 echo 1. Install from GL Server
 echo 2. Install from GH Server
 echo 3. Install from DB Server
-echo 4. Install from r_soft cloud Server
 set choice=
 set /p choice=Type the number to execute the operation
 if not '%choice%'=='' set choice=%choice:~0,1%
@@ -35,7 +34,7 @@ goto end
 :db
 echo Using DB Server
 :r_soft
-echo Using r_soft Server
+echo This Server is Currently unavailable
 goto end
 :end
 PAUSE
